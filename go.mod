@@ -9,7 +9,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/ghodss/yaml v1.0.0
 	github.com/gin-gonic/gin v1.7.7
-	github.com/go-admin-team/go-admin-core v1.5.1
+	github.com/go-admin-team/go-admin-core v1.3.11
 	github.com/go-admin-team/redisqueue/v2 v2.0.0
 	github.com/go-redis/redis/v9 v9.0.0-rc.1
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
@@ -83,3 +83,5 @@ require (
 	gopkg.in/kyokomi/emoji.v1 v1.5.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace github.com/go-admin-team/go-admin-core v1.3.11 => github.com/beijinzhibai/go-admin-core v1.0.2
