@@ -1,4 +1,4 @@
-module github.com/go-admin-team/go-admin-core
+module github.com/beijinzhibai/go-admin-core
 
 go 1.18
 
@@ -9,6 +9,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/ghodss/yaml v1.0.0
 	github.com/gin-gonic/gin v1.7.7
+	github.com/go-admin-team/go-admin-core v1.5.1
 	github.com/go-admin-team/redisqueue/v2 v2.0.0
 	github.com/go-redis/redis/v9 v9.0.0-rc.1
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
@@ -34,7 +35,6 @@ require (
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/fatih/color v1.7.0 // indirect
@@ -83,5 +83,3 @@ require (
 	gopkg.in/kyokomi/emoji.v1 v1.5.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
-
-replace gitee.com/zhaochuninhefei/zcutils-go v0.0.8 => ../zcutils-go
